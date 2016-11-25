@@ -21,7 +21,7 @@ Place this in a `Dockerfile` in the same directory as your content, run `docker 
 
 ## Exposing ports
 
-    $ docker run --name some-nginx -d -p 8080:80 my-content
+    $ docker run --name some-nginx -d -p 8080:80 inclusivedesign/nginx
 
 ## Complex configuration
 
